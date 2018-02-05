@@ -151,6 +151,10 @@ bindings={
     'checkboxcross':'☒',
     'checkboxempty':'☐',
 
+    # whitespace
+    # word joiner (a zero width character)
+    ' ':'⁠',
+
     # special help link
     'help':'HELP',
 }
