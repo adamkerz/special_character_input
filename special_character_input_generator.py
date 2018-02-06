@@ -188,7 +188,7 @@ def output(prefix,m,depth):
     first=True
     indent='\t'*depth
     else_str=''
-    for k,v in m.items():
+    for k,v in sorted(m.items()):
         if k=='':
             if prefix=='help':
                 fout.write(f'{indent}GoSub SpecialCharacterInput_Help\n')
