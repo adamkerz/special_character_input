@@ -122,6 +122,9 @@ def define_bindings(a):
     a('egp',             'E£')
     a('jpy',             '¥')
 
+    # standard emojis
+    ':rofl:':'🤣',
+
     # misc symbols
     # guillemets
     a('< ',              '‹')
