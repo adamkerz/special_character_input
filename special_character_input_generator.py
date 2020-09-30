@@ -123,7 +123,22 @@ def define_bindings(a):
     a('jpy',             '¥')
 
     # standard emojis
-    ':rofl:':'🤣',
+    a(':smile',          '🙂')
+    a(':-)',             '🙂')
+    a(':-D',             '😁')
+    a(':lol',            '😂')
+    a(':rofl',           '🤣')
+    a(':mwah',           '😘')
+    a(':cool',           '😎')
+    a(':fingerscrossed', '🤞')
+    a(':X',              '🤞')
+    a(':+1',             '👍')
+    a(':ok',             '👌')
+    a(':neg',            '👎')
+    a(':ty',             '🙏')
+    a(':wave',           '👋')
+    a(':shrug',          '🤷‍♂️')
+    a(':facepalm',       '🤦‍♂️')
 
     # misc symbols
     # guillemets
